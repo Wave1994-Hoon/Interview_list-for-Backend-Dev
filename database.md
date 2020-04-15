@@ -45,9 +45,24 @@
 - 논리적인 데이터 element들을 다수의 entity로 쪼개는 행위
 - 즉, 큰 table이나 index를, 관리하기 쉬운 파티션이라는 작은 단위로 물리적으로 분할
 - 물리적으로 분할하더라도, DB에 접근하는 application은 이를 인지하지 못한다,
-- 장점
-> 관리적 측 
+장점
+> 관리적 측면
+> - 전체 데이터를 손실할 가능성 감소, 데이터 가용성 향상
+> - 파티션별 백업 및 복구 가능
+> - 파티션 단위로 I/O 가능, 업데이트 기능 향상
+> 관리적 측면
+> - 데이터 검색 시 필요한 부분만 탐색해 성능 증가
+> - Full Scan에서 데이터 Access 범위를 줄여 성능 향상 
+> - 필요한 데이터만 쿼리가능
 
+단점
+> table간 JOIN시 리소스 증가
+> table과 index를 별도로 파티션 불가
+
+
+종류
+https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html
+&nbsp;
 
 
 
@@ -55,4 +70,5 @@
 
 ** 참고
 https://91ms.tistory.com/2
+&nbsp;
 https://limkydev.tistory.com/163?category=968229
