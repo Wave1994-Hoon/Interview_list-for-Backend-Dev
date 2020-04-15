@@ -65,13 +65,13 @@
 #### 종류
 - https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html
 
-2. 샤딩
+2. 샤딩 = 수평 파티셔닝
 
 3. 이중화 서버
+- 백업&복구
+- HA 구성 -> Active/Standby 구성
 
-4. 인덱싱
-
-5. 로그 모니터링
+4. 로그 모니터링
 
 
 
@@ -79,3 +79,4 @@
 ** 참고
 - https://91ms.tistory.com/2
 - https://limkydev.tistory.com/163?category=968229
+- http://theeye.pe.kr/archives/1917
