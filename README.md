@@ -1,1 +1,1 @@
-# Interview_list-for-Backend-Dev
+# 백엔드 주니어 개발자 면접 질문 리스트 정리
