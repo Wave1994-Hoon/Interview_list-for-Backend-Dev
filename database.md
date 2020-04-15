@@ -61,7 +61,7 @@
 > table과 index를 별도로 파티션 불가
 
 
-종류
+####종류
 - https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html
 
 
