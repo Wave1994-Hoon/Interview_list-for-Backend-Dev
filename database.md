@@ -42,7 +42,6 @@
 
 ### 데이터베이스 심화 개념
 1. DB Partitioning(DB 파티셔닝)
-2. 샤딩 = 수평 파티셔닝
 - 논리적인 데이터 element들을 다수의 entity로 쪼개는 행위
 - 즉, 큰 table이나 index를, 관리하기 쉬운 파티션이라는 작은 단위로 물리적으로 분할
 - 물리적으로 분할하더라도, DB에 접근하는 application은 이를 인지하지 못한다.
@@ -66,6 +65,7 @@
 - 종류 : https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html
 
 
+2. 샤딩 = 수평 파티셔닝
 
 3. 이중화 서버
 - 백업&복구
