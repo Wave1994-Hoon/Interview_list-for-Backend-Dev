@@ -62,8 +62,7 @@
 > table과 index를 별도로 파티션 불가
 
 
-#### 종류
-- https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html
+- 종류 : https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html
 
 2. 샤딩 = 수평 파티셔닝
 
@@ -80,3 +79,4 @@
 - https://91ms.tistory.com/2
 - https://limkydev.tistory.com/163?category=968229
 - http://theeye.pe.kr/archives/1917
+- https://yaboong.github.io/database/2018/03/09/database-normalization-1/
